@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/styles.css" />
+    <title>Clase Flexbox</title>
+  </head>
+
+  <body>
+    <div class="contenedor-flex">
+      <div class="hijo uno">
+        <input type="text" id="producto" placeholder="Producto" />
+        <input type="number" id="precio" placeholder="Precio" />
+        <button id="btnAgregar">Agregar</button>
+        <button id="btnTotal">Total</button>
+        <button id="btnBorrar">Borrar</button>
+      </div>
+      <div class="hijo dos">
+        <h2>Lista de compras</h2>
+        <ul id="lista"></ul>
+      </div>
+      <div class="hijo tres">
+        <h2>SubTotal</h2>
+        <p id="subtotal"></p>
+        <p id="mensaje"></p>
+        <h2>Total</h2>
+        <p id="total"></p>
+      </div>
+    </div>
+
+    <script src="src/index.ts"></script>
+  </body>
+</html>
